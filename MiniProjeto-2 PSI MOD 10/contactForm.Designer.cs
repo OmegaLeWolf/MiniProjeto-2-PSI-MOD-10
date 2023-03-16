@@ -56,7 +56,6 @@
             this.label9 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             panel5 = new System.Windows.Forms.Panel();
             this.panel16.SuspendLayout();
@@ -73,7 +72,6 @@
             this.panel7.SuspendLayout();
             this.panel9.SuspendLayout();
             this.panel8.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -134,7 +132,6 @@
             // 
             // panel5
             // 
-            panel5.Controls.Add(this.pictureBox2);
             panel5.Controls.Add(this.label2);
             panel5.Dock = System.Windows.Forms.DockStyle.Left;
             panel5.Location = new System.Drawing.Point(0, 0);
@@ -383,19 +380,8 @@
             this.label6.TabIndex = 2;
             this.label6.Text = "Home";
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::MiniProjeto_2_PSI_MOD_10.Properties.Resources.icons8_phone_50;
-            this.pictureBox2.Location = new System.Drawing.Point(25, 16);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(20, 16);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
-            // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::MiniProjeto_2_PSI_MOD_10.Properties.Resources.icons8_phone_50;
             this.pictureBox1.Location = new System.Drawing.Point(25, 16);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(20, 16);
@@ -439,7 +425,6 @@
             this.panel9.PerformLayout();
             this.panel8.ResumeLayout(false);
             this.panel8.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
@@ -452,7 +437,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;

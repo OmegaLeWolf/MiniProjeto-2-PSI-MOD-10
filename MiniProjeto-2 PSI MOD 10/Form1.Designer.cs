@@ -480,7 +480,6 @@ namespace MiniProjeto_2_PSI_MOD_10
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::MiniProjeto_2_PSI_MOD_10.Properties.Resources.icons8_phone_50;
             this.pictureBox2.Location = new System.Drawing.Point(25, 16);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(20, 16);
@@ -490,7 +489,6 @@ namespace MiniProjeto_2_PSI_MOD_10
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::MiniProjeto_2_PSI_MOD_10.Properties.Resources.icons8_phone_50;
             this.pictureBox1.Location = new System.Drawing.Point(25, 16);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(20, 16);
