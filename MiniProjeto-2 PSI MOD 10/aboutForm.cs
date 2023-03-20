@@ -46,12 +46,7 @@ namespace MiniProjeto_2_PSI_MOD_10
             form1.Show();
         }
 
-        private void openContactForm(object sender, EventArgs e)
-        {
-            this.Hide();
-            contactForm form1 = new contactForm();
-            form1.Show();
-        }
+       
         private void aboutForm_Load(object sender, EventArgs e)
         {
 

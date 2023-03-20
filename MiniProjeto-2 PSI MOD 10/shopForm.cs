@@ -45,16 +45,10 @@ namespace MiniProjeto_2_PSI_MOD_10
             galleryForm form1 = new galleryForm();
             form1.Show();
         }
-
-        private void openContactForm(object sender, EventArgs e)
-        {
-            this.Hide();
-            contactForm form1 = new contactForm();
-            form1.Show();
-        }
         private void shopForm_Load(object sender, EventArgs e)
         {
 
         }
+
     }
 }
