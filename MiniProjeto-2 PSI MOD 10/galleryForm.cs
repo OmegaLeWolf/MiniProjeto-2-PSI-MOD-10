@@ -51,5 +51,23 @@ namespace MiniProjeto_2_PSI_MOD_10
         {
 
         }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (listBox1.SelectedIndex == 0)
+            {
+                //Art Expo 2023 Portimão Arena
+            }
+
+            else if (listBox1.SelectedIndex == 1)
+            {
+                //Art Expo 2022 Marshopping
+            }
+
+            else if (listBox1.SelectedIndex == 2)
+            {
+                //Paintings
+            }
+        }
     }
 }
