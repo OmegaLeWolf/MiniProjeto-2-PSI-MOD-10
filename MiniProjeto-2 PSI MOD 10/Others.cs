@@ -8,5 +8,12 @@ namespace MiniProjeto_2_PSI_MOD_10
 {
     public class Others : pictures
     {
+        public Others(string iName, int iId, int iPrice, bool iSold) : base(iName, iId, iPrice, iSold)
+        {
+            this.iName = iName;
+            this.iId = iId;
+            this.iPrice = iPrice;
+            this.iSold = iSold;
+        }
     }
 }

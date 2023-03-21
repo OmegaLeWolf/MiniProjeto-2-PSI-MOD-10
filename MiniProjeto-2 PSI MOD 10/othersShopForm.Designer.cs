@@ -575,8 +575,8 @@
             // panel21
             // 
             this.panel21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(76)))), ((int)(((byte)(48)))));
-            this.panel21.Controls.Add(this.label19);
             this.panel21.Controls.Add(this.pictureBox8);
+            this.panel21.Controls.Add(this.label19);
             this.panel21.Location = new System.Drawing.Point(655, 267);
             this.panel21.Name = "panel21";
             this.panel21.Size = new System.Drawing.Size(197, 181);
@@ -606,8 +606,8 @@
             // panel18
             // 
             this.panel18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(76)))), ((int)(((byte)(48)))));
-            this.panel18.Controls.Add(this.label16);
             this.panel18.Controls.Add(this.pictureBox4);
+            this.panel18.Controls.Add(this.label16);
             this.panel18.Location = new System.Drawing.Point(655, 53);
             this.panel18.Name = "panel18";
             this.panel18.Size = new System.Drawing.Size(197, 181);
@@ -637,8 +637,8 @@
             // panel22
             // 
             this.panel22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(76)))), ((int)(((byte)(48)))));
-            this.panel22.Controls.Add(this.label18);
             this.panel22.Controls.Add(this.pictureBox7);
+            this.panel22.Controls.Add(this.label18);
             this.panel22.Location = new System.Drawing.Point(373, 267);
             this.panel22.Name = "panel22";
             this.panel22.Size = new System.Drawing.Size(197, 181);
@@ -668,8 +668,8 @@
             // panel17
             // 
             this.panel17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(76)))), ((int)(((byte)(48)))));
-            this.panel17.Controls.Add(this.label14);
             this.panel17.Controls.Add(this.pictureBox3);
+            this.panel17.Controls.Add(this.label14);
             this.panel17.Location = new System.Drawing.Point(373, 53);
             this.panel17.Name = "panel17";
             this.panel17.Size = new System.Drawing.Size(197, 181);
@@ -730,8 +730,8 @@
             // panel15
             // 
             this.panel15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(76)))), ((int)(((byte)(48)))));
-            this.panel15.Controls.Add(this.label13);
             this.panel15.Controls.Add(this.pictureBox2);
+            this.panel15.Controls.Add(this.label13);
             this.panel15.Location = new System.Drawing.Point(78, 53);
             this.panel15.Name = "panel15";
             this.panel15.Size = new System.Drawing.Size(197, 181);
