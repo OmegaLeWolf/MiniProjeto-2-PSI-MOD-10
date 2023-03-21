@@ -19,5 +19,10 @@ namespace MiniProjeto_2_PSI_MOD_10
             this.iPrice = iPrice;
             this.iSold = iSold;
         }
+
+        public virtual void sellItem()
+        {
+            this.iSold = true;
+        }
     }
 }

@@ -38,9 +38,8 @@ namespace MiniProjeto_2_PSI_MOD_10
             this.panel11 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
             this.panel12 = new System.Windows.Forms.Panel();
+            this.label10 = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
-            this.panel16 = new System.Windows.Forms.Panel();
-            this.label15 = new System.Windows.Forms.Label();
             this.panel10 = new System.Windows.Forms.Panel();
             this.label12 = new System.Windows.Forms.Label();
             this.panel9 = new System.Windows.Forms.Panel();
@@ -65,7 +64,6 @@ namespace MiniProjeto_2_PSI_MOD_10
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.label10 = new System.Windows.Forms.Label();
             panel5 = new System.Windows.Forms.Panel();
             panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -74,7 +72,6 @@ namespace MiniProjeto_2_PSI_MOD_10
             this.panel11.SuspendLayout();
             this.panel12.SuspendLayout();
             this.panel7.SuspendLayout();
-            this.panel16.SuspendLayout();
             this.panel10.SuspendLayout();
             this.panel9.SuspendLayout();
             this.panel8.SuspendLayout();
@@ -174,9 +171,19 @@ namespace MiniProjeto_2_PSI_MOD_10
             this.panel12.Size = new System.Drawing.Size(354, 77);
             this.panel12.TabIndex = 7;
             // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label10.Location = new System.Drawing.Point(255, 25);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(62, 16);
+            this.label10.TabIndex = 3;
+            this.label10.Text = "Account";
+            // 
             // panel7
             // 
-            this.panel7.Controls.Add(this.panel16);
             this.panel7.Controls.Add(this.panel10);
             this.panel7.Controls.Add(this.panel9);
             this.panel7.Controls.Add(this.panel8);
@@ -187,28 +194,6 @@ namespace MiniProjeto_2_PSI_MOD_10
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(468, 77);
             this.panel7.TabIndex = 5;
-            // 
-            // panel16
-            // 
-            this.panel16.Controls.Add(this.label15);
-            this.panel16.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel16.Location = new System.Drawing.Point(348, 0);
-            this.panel16.Name = "panel16";
-            this.panel16.Size = new System.Drawing.Size(103, 77);
-            this.panel16.TabIndex = 9;
-            this.panel16.Click += new System.EventHandler(this.openGalleryForm);
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label15.Location = new System.Drawing.Point(22, 25);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(57, 16);
-            this.label15.TabIndex = 2;
-            this.label15.Text = "Gallery";
-            this.label15.Click += new System.EventHandler(this.openGalleryForm);
             // 
             // panel10
             // 
@@ -475,17 +460,6 @@ namespace MiniProjeto_2_PSI_MOD_10
             this.pictureBox6.TabIndex = 7;
             this.pictureBox6.TabStop = false;
             // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label10.Location = new System.Drawing.Point(255, 25);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(62, 16);
-            this.label10.TabIndex = 3;
-            this.label10.Text = "Account";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -509,8 +483,6 @@ namespace MiniProjeto_2_PSI_MOD_10
             this.panel12.PerformLayout();
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
-            this.panel16.ResumeLayout(false);
-            this.panel16.PerformLayout();
             this.panel10.ResumeLayout(false);
             this.panel10.PerformLayout();
             this.panel9.ResumeLayout(false);
@@ -567,8 +539,6 @@ namespace MiniProjeto_2_PSI_MOD_10
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Panel panel16;
-        private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Panel panel10;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label10;

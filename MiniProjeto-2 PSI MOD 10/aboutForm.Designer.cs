@@ -32,8 +32,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(aboutForm));
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.panel16 = new System.Windows.Forms.Panel();
-            this.label15 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
@@ -58,15 +56,14 @@
             this.label6 = new System.Windows.Forms.Label();
             this.panel14 = new System.Windows.Forms.Panel();
             this.panel15 = new System.Windows.Forms.Panel();
-            this.printDialog1 = new System.Windows.Forms.PrintDialog();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.printDialog1 = new System.Windows.Forms.PrintDialog();
             panel5 = new System.Windows.Forms.Panel();
             panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            this.panel16.SuspendLayout();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel10.SuspendLayout();
@@ -111,28 +108,6 @@
             this.label2.Size = new System.Drawing.Size(87, 16);
             this.label2.TabIndex = 0;
             this.label2.Text = "916 123 238";
-            // 
-            // panel16
-            // 
-            this.panel16.Controls.Add(this.label15);
-            this.panel16.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel16.Location = new System.Drawing.Point(348, 0);
-            this.panel16.Name = "panel16";
-            this.panel16.Size = new System.Drawing.Size(104, 77);
-            this.panel16.TabIndex = 9;
-            this.panel16.Click += new System.EventHandler(this.openGalleryForm);
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label15.Location = new System.Drawing.Point(22, 25);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(57, 16);
-            this.label15.TabIndex = 2;
-            this.label15.Text = "Gallery";
-            this.label15.Click += new System.EventHandler(this.openGalleryForm);
             // 
             // label4
             // 
@@ -285,7 +260,6 @@
             // 
             // panel7
             // 
-            this.panel7.Controls.Add(this.panel16);
             this.panel7.Controls.Add(this.panel10);
             this.panel7.Controls.Add(this.panel9);
             this.panel7.Controls.Add(this.panel8);
@@ -400,9 +374,41 @@
             this.panel15.Size = new System.Drawing.Size(590, 499);
             this.panel15.TabIndex = 0;
             // 
-            // printDialog1
+            // label14
             // 
-            this.printDialog1.UseEXDialog = true;
+            this.label14.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label14.Location = new System.Drawing.Point(54, 445);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(137, 19);
+            this.label14.TabIndex = 5;
+            this.label14.Text = "ー Andrea Barlow";
+            // 
+            // label13
+            // 
+            this.label13.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label13.Location = new System.Drawing.Point(53, 70);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(189, 28);
+            this.label13.TabIndex = 4;
+            this.label13.Text = "About the Artist";
+            // 
+            // label10
+            // 
+            this.label10.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label10.Location = new System.Drawing.Point(54, 38);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(145, 19);
+            this.label10.TabIndex = 3;
+            this.label10.Text = "Bio and Statement";
             // 
             // richTextBox1
             // 
@@ -417,41 +423,9 @@
             this.richTextBox1.TabIndex = 0;
             this.richTextBox1.Text = resources.GetString("richTextBox1.Text");
             // 
-            // label10
+            // printDialog1
             // 
-            this.label10.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label10.Location = new System.Drawing.Point(54, 38);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(145, 19);
-            this.label10.TabIndex = 3;
-            this.label10.Text = "Bio and Statement";
-            // 
-            // label13
-            // 
-            this.label13.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label13.Location = new System.Drawing.Point(53, 70);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(189, 28);
-            this.label13.TabIndex = 4;
-            this.label13.Text = "About the Artist";
-            // 
-            // label14
-            // 
-            this.label14.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label14.Location = new System.Drawing.Point(54, 445);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(137, 19);
-            this.label14.TabIndex = 5;
-            this.label14.Text = "ー Andrea Barlow";
+            this.printDialog1.UseEXDialog = true;
             // 
             // aboutForm
             // 
@@ -467,8 +441,6 @@
             panel5.ResumeLayout(false);
             panel5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            this.panel16.ResumeLayout(false);
-            this.panel16.PerformLayout();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -495,9 +467,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Panel panel16;
-        private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Panel panel4;
