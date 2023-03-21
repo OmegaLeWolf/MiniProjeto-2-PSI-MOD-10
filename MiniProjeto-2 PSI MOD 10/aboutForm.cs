@@ -39,12 +39,7 @@ namespace MiniProjeto_2_PSI_MOD_10
             form1.Show();
         }
 
-        private void openGalleryForm(object sender, EventArgs e)
-        {
-            this.Hide();
-            galleryForm form1 = new galleryForm();
-            form1.Show();
-        }
+        
 
        
         private void aboutForm_Load(object sender, EventArgs e)
