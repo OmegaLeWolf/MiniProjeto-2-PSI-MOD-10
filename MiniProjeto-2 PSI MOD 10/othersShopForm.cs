@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace MiniProjeto_2_PSI_MOD_10
 {
-    public partial class shopForm : Form
+    public partial class othersShopForm : Form
     {
-        public shopForm()
+        public othersShopForm()
         {
             InitializeComponent();
         }
@@ -35,7 +35,7 @@ namespace MiniProjeto_2_PSI_MOD_10
         private void openShopForm(object sender, EventArgs e)
         {
             this.Hide();
-            shopForm form1 = new shopForm();
+            othersShopForm form1 = new othersShopForm();
             form1.Show();
         }
 

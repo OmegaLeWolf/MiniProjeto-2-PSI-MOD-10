@@ -35,7 +35,7 @@ namespace MiniProjeto_2_PSI_MOD_10
         private void openShopForm(object sender, EventArgs e)
         {
             this.Hide();
-            shopForm form1 = new shopForm();
+            othersShopForm form1 = new othersShopForm();
             form1.Show();
         }
 
