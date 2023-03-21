@@ -35,7 +35,7 @@ namespace MiniProjeto_2_PSI_MOD_10
         private void openShopForm(object sender, EventArgs e)
         {
             this.Hide();
-            shopForm form1 = new shopForm();
+            othersShopForm form1 = new othersShopForm();
             form1.Show();
         }
 
@@ -46,15 +46,28 @@ namespace MiniProjeto_2_PSI_MOD_10
             form1.Show();
         }
 
-        private void openContactForm(object sender, EventArgs e)
-        {
-            this.Hide();
-            contactForm form1 = new contactForm();
-            form1.Show();
-        }
+        
         private void galleryForm_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (listBox1.SelectedIndex == 0)
+            {
+                //Art Expo 2023 Portimão Arena
+            }
+
+            else if (listBox1.SelectedIndex == 1)
+            {
+                //Art Expo 2022 Marshopping
+            }
+
+            else if (listBox1.SelectedIndex == 2)
+            {
+                //Paintings
+            }
         }
     }
 }

@@ -39,7 +39,7 @@ namespace MiniProjeto_2_PSI_MOD_10
         private void openShopForm(object sender, EventArgs e)
         {
             this.Hide();
-            shopForm form1 = new shopForm();
+            othersShopForm form1 = new othersShopForm();
             form1.Show();
         }
 
@@ -50,11 +50,13 @@ namespace MiniProjeto_2_PSI_MOD_10
             form1.Show();
         }
 
-        private void openContactForm(object sender, EventArgs e)
+        private void openAccountForm(object sender, EventArgs e)
         {
             this.Hide();
-            contactForm form1 = new contactForm();
+            galleryForm form1 = new galleryForm();
             form1.Show();
         }
+
+
     }
 }

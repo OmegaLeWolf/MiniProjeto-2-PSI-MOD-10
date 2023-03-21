@@ -120,9 +120,9 @@
   <metadata name="panel5.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>False</value>
   </metadata>
-  <metadata name="panel5.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>Andrea Jayne Barlow (b.1966) Andrea uses several mediums, but the artform that has most influenced her work and for which she is best known is acrylics. The artist is also fascinated with the way art can tell multiple stories. Each viewer sees what speaks to their own individual place in life and Andrea is privileged to be able to allow that kind of visual journey through her work. The artist is self-taught which has allowed her the freedom to find her own way. Beginning with watercolours, then oils and finally into abstract acrylic painting, she has evolved from a representational artist into an abstract expressionist. She is always open to the challenges of improvement and experimenting with new methods and materials. Andrea views art making as an expression of the soul Whatever she puts on her canvas is coming from within, often from feelings of conflict or contentment. My goal in any work is to tell a story that is evocative or mysterious and draws the viewer to find a meaning that is personal to them. The art expresses something of myself but is most successful when it makes that connection with the viewer. Beginning with random splashes of acrylic on the canvas, using brushes, pallet knives and anything else I can lay my hands on, I add layer upon layer until a pleasing design is accomplished and a final art piece comes to life.</value>
+  </data>
   <metadata name="printDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
