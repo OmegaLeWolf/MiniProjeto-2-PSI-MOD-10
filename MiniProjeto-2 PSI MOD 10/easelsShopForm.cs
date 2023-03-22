@@ -16,5 +16,17 @@ namespace MiniProjeto_2_PSI_MOD_10
         {
             InitializeComponent();
         }
+
+        private void easelsShopForm_Load(object sender, EventArgs e)
+        {
+
+        }
+        private void itemInfoForm_Open(object sender, EventArgs e)
+        {
+            MessageBox.Show(sender.GetType().ToString());
+            //this.Hide();
+            //itemInfoForm form1 = new itemInfoForm();
+            //form1.Show();
+        }
     }
 }

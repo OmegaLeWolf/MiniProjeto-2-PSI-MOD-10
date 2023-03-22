@@ -72,6 +72,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="itemInfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="itemInfoForm.Designer.cs">
+      <DependentUpon>itemInfoForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Items.cs" />
     <Compile Include="manager.cs" />
     <Compile Include="Others.cs" />
@@ -105,6 +111,9 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="itemInfoForm.resx">
+      <DependentUpon>itemInfoForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
@@ -127,14 +136,15 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="bin\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="Resources\Evocation.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\CovertEmotions.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\easel-bamboo.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
