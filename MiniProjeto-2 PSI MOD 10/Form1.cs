@@ -19,7 +19,8 @@ namespace MiniProjeto_2_PSI_MOD_10
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            othersShopForm form = new othersShopForm();
+            form.Show();
         }
 
         private void openHomeForm(object sender, EventArgs e)

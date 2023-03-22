@@ -73,6 +73,16 @@ namespace MiniProjeto_2_PSI_MOD_10.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap easel_bamboo {
+            get {
+                object obj = ResourceManager.GetObject("easel-bamboo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Evocation {
             get {
                 object obj = ResourceManager.GetObject("Evocation", resourceCulture);
